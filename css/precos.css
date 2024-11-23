@@ -1,0 +1,36 @@
+.table {
+    background-color: #f8f9fa; 
+    color: #333333; 
+    border-radius: 0.5rem; 
+    overflow: hidden;
+}
+
+
+.table td {
+    vertical-align: middle; 
+    padding: 15px;
+    
+}
+
+.table th{
+    vertical-align: middle; 
+    padding: 15px; 
+    background-color: #000000;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e9ecef; 
+}
+
+.table-hover tbody tr {
+    background-color: #d0d0d0; 
+}
+
+.thead-dark {
+    background-color: #343a40;
+    color: white; 
+}
+
+
+h2 {
+    margin-bottom: 20px; 
+}
